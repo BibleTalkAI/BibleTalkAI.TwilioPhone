@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34511.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleTalkAI.TwilioPhone", "BibleTalkAI.TwilioPhone\BibleTalkAI.TwilioPhone.csproj", "{28F2BE77-A800-402B-B462-840380788F07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{18F7C535-5986-4A71-8697-EC679B918B1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8A643772-8880-4D5E-8597-761992ECE352}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6680C06-DACE-4F49-A969-0996C1ED0C73}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F2BE77-A800-402B-B462-840380788F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F2BE77-A800-402B-B462-840380788F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F2BE77-A800-402B-B462-840380788F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F2BE77-A800-402B-B462-840380788F07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A643772-8880-4D5E-8597-761992ECE352} = {18F7C535-5986-4A71-8697-EC679B918B1B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F20DFD49-DA5D-4001-B2EE-E8FDF11FADD4}
+	EndGlobalSection
+EndGlobal
