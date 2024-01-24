@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleTalkAI.TwilioPhone", "BibleTalkAI.TwilioPhone\BibleTalkAI.TwilioPhone.csproj", "{28F2BE77-A800-402B-B462-840380788F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.TwilioPhone", "BibleTalkAI.TwilioPhone\BibleTalkAI.TwilioPhone.csproj", "{28F2BE77-A800-402B-B462-840380788F07}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{18F7C535-5986-4A71-8697-EC679B918B1B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CODEOWNERS = .github\CODEOWNERS
+		.github\CODE_OF_CONDUCT.md = .github\CODE_OF_CONDUCT.md
+		.github\FUNDING.yml = .github\FUNDING.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8A643772-8880-4D5E-8597-761992ECE352}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\auto-assign.yml = .github\workflows\auto-assign.yml
 		.github\workflows\publish.yml = .github\workflows\publish.yml
 	EndProjectSection
 EndProject

@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageVersion>1.0.1</PackageVersion>
+	<Description>Types for reading form data from Twilio webhook HTTP requests.</Description>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BibleTalkAI.FormReaders" Version="1.0.0" />
+    <PackageReference Include="BibleTalkAI.FormReaders" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
